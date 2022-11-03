@@ -222,7 +222,7 @@
 
   .hero__heading {
     font-size: 100px;
-    margin-bottom: 24px;
+    margin-bottom: 200px;
     color: #fff;
   }
 
@@ -235,5 +235,31 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+
+  .hero__subs {
+    color: #fff;
+    margin: 10px
+  }
+
+  .hero__description {
+    color: #fff;
+    font-size: 60px;
+    background: linear-gradient(to right, #fcb045, rgb(218, 49, 119), #7300ff);
+  }
+
+  .highlight {
+    border-bottom: 4px solid rgb(132, 0, 255);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero__heading {
+      font-size: 60px;
+    }
+  
+    .hero__description {
+      font-size: 40px;
+    }
   }
